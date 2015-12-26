@@ -1,0 +1,219 @@
+body {
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-attachment: fixed;
+}
+
+html, body, #container {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  width: 280px;
+  height: 20px;
+
+  margin-left: -140px;
+  margin-top: -10px;
+
+
+
+  transform: scale(2);
+  animation: name 4s;
+}
+
+@keyframes name {
+  0%    { transform: scale(1.5); }
+  20%   { transform: scale(1.5); }
+  100%  { transform: scale(2); }
+}
+
+.char {
+  position: absolute;
+}
+
+.char span {
+  display: block;
+  font-size: 20px;
+  line-height: 20px;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+}
+
+.selected {
+  animation: selected 5s;
+  color: red;
+}
+
+@keyframes selected {
+  0% { color: #000; }
+  40%   { color: #000; }
+  100%   { color: red; }
+}
+
+#Valter {
+  left: 0px;
+  top: -420px;
+  animation: Valter 4s;
+}
+
+@keyframes Valter {
+  0%    { top: 0px; }
+  20%   { top: 0px; }
+  100%  { top: -420px; }
+}
+
+#vAlter {
+  left: 20px;
+  top: 0px;
+  animation: vAlter 4s;
+}
+
+@keyframes vAlter {
+  0%    { top: -500px; }
+  20%   { top: -500px; }
+  100%  { top: 0px; }
+}
+
+#vaLter {
+  left: 40px;
+  top: -220px;
+  animation: vaLter 4s;
+}
+
+@keyframes vaLter {
+  0%    { top: 0px; }
+  20%   { top: 0px; }
+  100%  { top: -220px; }
+}
+
+#valTer {
+  left: 60px;
+  top: -380px;
+  animation: valTer 4s;
+}
+
+@keyframes valTer {
+  0%    { top: -500px; }
+  20%   { top: -500px; }
+  100%  { top: -380px; }
+}
+
+#valtEr {
+  left: 80px;
+  top: -80px;
+  animation: valtEr 4s;
+}
+
+@keyframes valtEr {
+  0%    { top: 0px; }
+  20%   { top: 0px; }
+  100%  { top: -80px; }
+}
+
+#valteR {
+  left: 100px;
+  top: -340px;
+  animation: valteR 4s;
+}
+
+@keyframes valteR {
+  0%    { top: -500px; }
+  20%   { top: -500px; }
+  100%  { top: -340px; }
+}
+
+
+#Kraemer {
+  left: 140px;
+  top: -200px;
+  animation: Kraemer 4s;
+}
+
+@keyframes Kraemer {
+  0%    { top: 0px; }
+  20%   { top: 0px; }
+  100%  { top: -200px; }
+}
+
+#kRaemer {
+  left: 160px;
+  top: -340px;
+  animation: kRaemer 4s;
+}
+
+@keyframes kRaemer {
+  0%    { top: -500px; }
+  20%   { top: -500px; }
+  100%  { top: -340px; }
+}
+
+#krAemer {
+  left: 180px;
+  top: 0px;
+  animation: krAemer 4s;
+}
+
+@keyframes krAemer {
+  0%    { top: 0px; }
+  20%   { top: 0px; }
+  100%  { top: 0px; }
+}
+
+#kraEmer {
+  left: 200px;
+  top: -80px;
+  animation: kraEmer 4s;
+}
+
+@keyframes kraEmer {
+  0%    { top: -500px; }
+  20%   { top: -500px; }
+  100%  { top: -80px; }
+}
+
+#kraeMer {
+  left: 220px;
+  top: -240px;
+  animation: kraeMer 4s;
+}
+
+@keyframes kraeMer {
+  0%    { top: 0px; }
+  20%   { top: 0px; }
+  100%  { top: -240px; }
+}
+
+#kraemEr {
+  left: 240px;
+  top: -80px;
+  animation: kraemEr 4s;
+}
+
+@keyframes kraemEr {
+  0%    { top: -500px; }
+  20%   { top: -500px; }
+  100%  { top: -80px; }
+}
+
+#kraemeR {
+  left: 260px;
+  top: -340px;
+  animation: kraemeR 4s;
+}
+
+@keyframes kraemeR {
+  0%    { top: 0px; }
+  20%   { top: 0px; }
+  100%  { top: -340px; }
+}
